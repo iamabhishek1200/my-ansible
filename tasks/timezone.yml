@@ -1,0 +1,4 @@
+---
+- name: windows set timezone for the server
+  win_timezone: 
+    timezone: "{{ timezone }}"
