@@ -1,0 +1,7 @@
+---
+- name: Local group creation
+  win_group:
+    name: "{{ local_group_name }}"
+    force: true
+    gid: "{{ gid }}"
+  register: result
