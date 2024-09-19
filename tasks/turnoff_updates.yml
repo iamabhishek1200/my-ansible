@@ -1,0 +1,6 @@
+---
+- name: Turn off automatic updates
+  win_service:
+    name: wuauserv
+    state: stopped
+  register: result
