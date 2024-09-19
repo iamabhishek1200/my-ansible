@@ -1,5 +1,0 @@
----
-- name: Hello world
-  hosts: all
-  tasks: 
-    - name: Hello world
