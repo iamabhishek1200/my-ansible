@@ -1,0 +1,7 @@
+---
+- name: Include win mapped drive
+  include_tasks: win_mapped_drive.yml
+
+- name: Include disable firewall tasks
+  include_tasks: disable_firewall.yml
+  

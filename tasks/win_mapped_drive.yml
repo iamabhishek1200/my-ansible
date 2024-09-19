@@ -1,0 +1,12 @@
+---
+- name: create a drive
+  hosts: all
+  tasks:
+    - name: create a mapped drive under E
+      win_mapped_drive:
+        letter: E
+        state: present
+        username: ""
+        password: ""
+        path: ""
+        
