@@ -1,0 +1,3 @@
+---    
+- name: Disable guest user
+  win_shell: net user guest /active:no 
