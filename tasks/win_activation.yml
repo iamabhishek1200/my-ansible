@@ -1,0 +1,8 @@
+---
+- name: Activate windows
+  win_command: slmgr /ato
+  register: win_activation
+
+- name: Display Activation
+  debug: 
+    msg: "{{ win_activation.stdout_lines }}"
