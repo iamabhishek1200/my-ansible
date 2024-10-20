@@ -18,3 +18,4 @@
 - name: Not display license
   debug:
     msg: win_license
+
