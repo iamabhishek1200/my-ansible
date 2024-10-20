@@ -4,4 +4,6 @@
 
 - name: Include disable firewall tasks
   include_tasks: disable_firewall.yml
-  
+
+- name: Include timezone tasks 
+  include_tasks: timezone.yml
