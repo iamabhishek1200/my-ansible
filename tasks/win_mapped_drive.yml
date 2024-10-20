@@ -6,7 +6,7 @@
       win_mapped_drive:
         letter: E
         state: present
-        username: ""
-        password: ""
-        path: ""
+        username: "ay"
+        password: "123"
+        path: "C:\"
         
