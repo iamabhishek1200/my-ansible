@@ -14,3 +14,7 @@
 - name: Display license
   debug:
     msg: "{{ win_license.stdout_lines }}" 
+
+- name: Not display license
+  debug:
+    msg: win_license
